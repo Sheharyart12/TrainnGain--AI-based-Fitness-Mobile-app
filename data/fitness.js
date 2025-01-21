@@ -1,6 +1,34 @@
 export default [
   {
-    id: "0",
+    id: "4",  // Meditation Module
+    image: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXB4d3ZkMzUzZzM1eGh1YWR6NHUzYmtzajBlaTBxcmJ2MjRqemI3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9r4WEbjkinEahfwMzT/giphy.gif",  // A valid image link
+    name: "MEDITATION",
+    description: "Guided meditation, breathing exercises, and relaxation.",
+    exercises: [
+      {
+        id: "100",
+        image: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWl3Z2Ewc2Z3d3QxY3A3cDZ4MWNwNDY3NWUxOWozOXhrYXh1NTFlYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DBbPjLMsQPruMkDcrd/giphy.gif",  // Direct gif link for Guided Meditation
+        name: "GUIDED MEDITATION",
+        sets: 15,
+      },
+      {
+        id: "101",
+        image: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTVpY2R3Y3U5a2M1cGQxeWxjMXg1dXkwMTJyemlndW92OXRpajQ5aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/whVGEJ7ieEU41Hx7q0/giphy.gif",  // Direct gif link for Breath Work Exercise
+        name: "BREATH WORK EXERCISE",
+        sets: 10,
+        
+      },
+     
+      {
+        id: "103",
+        image: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNndyNDJ6Mmx6ZjY0M3M1ZnhtMXlsOTR2dHlic21uemVxNmxyaDQ5dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oyIoqeCvmlC1gIn8zf/giphy.gif",  // Direct gif link
+        name: "MEDITATION WITH TIMER",
+        sets: 15,
+      }
+    ]
+  },
+  {
+    id: "",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrEM-6gDUO7g1cdrNhBaqk_0nwxy6ILlIqsQ&usqp=CAU",
     name: "FULL BODY",
@@ -174,5 +202,6 @@ export default [
         sets: 10
       }
     ]
-  }
+  },
+ 
 ];
