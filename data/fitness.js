@@ -1,7 +1,7 @@
 export default [
   {
     id: "4",  // Meditation Module
-    image: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXB4d3ZkMzUzZzM1eGh1YWR6NHUzYmtzajBlaTBxcmJ2MjRqemI3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9r4WEbjkinEahfwMzT/giphy.gif",  // A valid image link
+    image: "https://media.giphy.com/media/Wyu08qfOIXwcj0WEHZ/giphy.gif",  // A valid image link
     name: "MEDITATION",
     description: "Guided meditation, breathing exercises, and relaxation.",
     exercises: [
